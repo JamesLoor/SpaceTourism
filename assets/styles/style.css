@@ -233,20 +233,17 @@ section {
 .banner-cta {
   width: 150px;
   height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   background-color: var(--white-color);
+  color: var(--primary-color);
+  text-align: center;
   justify-self: center;
   cursor: pointer;
   transition-duration: 0.3s;
   transition-property: box-shadow;
-}
-
-.banner-cta a {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .banner-cta:hover {
