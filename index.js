@@ -1,9 +1,7 @@
 (function onLoad() {
-  const $bannerCTAId = document.getElementById('banner-cta-id')
   const $menuIconHamburguer = document.getElementById('menu-hamburguer-id')
   const $menuIconClose = document.getElementById('menu-close-id')
   const $menu = document.getElementById('menu-id')
-  const $menuLinks = document.querySelectorAll('#menu-id ul li')
   const $controllers = document.querySelectorAll('#controller-container-id .controller')
   const $crewControllers = document.querySelectorAll('#crew-controllers-id .crew-controller')
   const $destinationTitle = document.getElementById('destination-title-id')
@@ -19,7 +17,6 @@
   const $technologyImage = document.getElementById('technology-image-id')
   const $technologyName = document.getElementById('technology-data-name-id')
   const $technologyDescription = document.getElementById('technology-data-description-id')
-  const $sections = document.querySelectorAll('section')
 
   const destinationInfo = [
     {
@@ -135,10 +132,6 @@
     $menuIconClose.classList.toggle('active')
   }
 
-  const handleCTA = () => {
-    console.log('Press button of banner')
-  }
-
   const handleDestinationData = (event) => {
     $controllers.forEach(controller => {
       controller.classList.remove('active')
@@ -223,5 +216,4 @@
 
   $menuIconHamburguer.addEventListener('click', handleMenu)
   $menuIconClose.addEventListener('click', handleMenu)
-  $bannerCTAId.addEventListener('click', handleCTA)
 })()
