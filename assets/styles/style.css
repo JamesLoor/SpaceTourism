@@ -241,6 +241,15 @@ section {
   transition-property: box-shadow;
 }
 
+.banner-cta a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 .banner-cta:hover {
   box-shadow: 0px 0px 0px 60px rgb(255 255 255 / 10%);
 }
