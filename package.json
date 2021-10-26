@@ -1,0 +1,19 @@
+{
+  "name": "space-tourism",
+  "version": "1.0.0",
+  "description": "Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesLoor/SpaceTourism.git"
+  },
+  "author": "https://github.com/JamesLoor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JamesLoor/SpaceTourism/issues"
+  },
+  "homepage": "https://github.com/JamesLoor/SpaceTourism#readme"
+}
